@@ -1,0 +1,69 @@
+!SESSION 2017-10-19 18:42:46.206 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.freescale.s32ds.arm.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.freescale.s32ds.arm.ide
+
+!ENTRY org.eclipse.core.net 4 0 2017-10-19 18:43:53.597
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-19 18:44:02.101
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\uidn8311'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2017-10-19 18:47:04.741
+!MESSAGE No toolchain found for toolchainId: ghs.managedmake.arm.executable.toolchain
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2017-10-19 18:47:04.742
+!MESSAGE No toolchain found for toolchainId: iar.arm.toolchain.v6.1.0
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2017-10-19 18:47:17.212
+!MESSAGE No toolchain found for toolchainId: ghs.managedmake.arm.executable.toolchain
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2017-10-19 18:47:17.213
+!MESSAGE No toolchain found for toolchainId: iar.arm.toolchain.v6.1.0
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2017-10-19 18:47:28.406
+!MESSAGE AddConfig: Added config Name=Debug_RAM
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-10-19 18:47:42.129
+!MESSAGE Indexed 'Window_Lifter' (3 sources, 17 headers) in 1.77 sec: 994 declarations; 1,477 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-19 18:59:15.599
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-19 18:59:15.639
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-10-19 19:00:19.280
+!MESSAGE Request for monitor: '38^error,msg="No symbol "pxReadyTasksLists" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-10-19 19:00:19.280
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression sizeof(pxReadyTasksLists)
+Error message from debugger back end:
+No symbol "pxReadyTasksLists" in current context.
+!STACK 0
+java.lang.Exception: No symbol "pxReadyTasksLists" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2017-10-19 19:00:19.539
+!MESSAGE Request for monitor: '39^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2017-10-19 19:00:19.539
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-10-19 19:01:14.205
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob

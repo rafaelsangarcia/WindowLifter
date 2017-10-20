@@ -1,0 +1,30 @@
+18:57:55 **** Incremental Build of configuration Debug for project Window_Lifter ****
+make -j4 all 
+Building file: ../src/main.c
+Executing target #4 ../src/main.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@src/main.args" -MMD -MP -MF"src/main.d" -MT"src/main.o" -c -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: Window_Lifter.elf
+Executing target #5 Window_Lifter.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "Window_Lifter.elf" "@Window_Lifter.args"   
+Finished building target: Window_Lifter.elf
+ 
+Executing target #6 Window_Lifter.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  Window_Lifter.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1584	      0	   3072	   4656	   1230	Window_Lifter.elf
+Finished building: Window_Lifter.siz
+ 
+18:59:22 **** Incremental Build of configuration Debug for project Window_Lifter ****
+make -j4 all 
+Executing target #6 Window_Lifter.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  Window_Lifter.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1584	      0	   3072	   4656	   1230	Window_Lifter.elf
+Finished building: Window_Lifter.siz
+ 
