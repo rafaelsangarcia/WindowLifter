@@ -1,6 +1,6 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Window_Lifter_Debug_RAM,org.eclipse.launchbar.core.descriptorType.default\:Window_Lifter_Release,org.eclipse.launchbar.core.descriptorType.default\:Window_Lifter_Debug
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Example_2_Debug_RAM,org.eclipse.launchbar.core.descriptorType.default\:Example_2_Release,org.eclipse.launchbar.core.descriptorType.default\:Window_Lifter_Debug_RAM,org.eclipse.launchbar.core.descriptorType.default\:Window_Lifter_Release,org.eclipse.launchbar.core.descriptorType.default\:Window_Lifter_Debug,org.eclipse.launchbar.core.descriptorType.default\:Example_2_Debug
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Window_Lifter_Debug/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:Window_Lifter_Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
